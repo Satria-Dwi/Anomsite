@@ -1,0 +1,127 @@
+/* .wrapper {
+  border: 1px solid #000;
+  padding: 10px;
+} */
+
+/* .menu { */
+  /* list-style: none;         hilangkan titik bawaan */
+  /* margin: 0; */
+  /* padding: 0; */
+  /* display: flex;            bikin sejajar horizontal */
+  /* gap: 20px;                jarak antar item */
+  /* justify-content: center;  sejajarkan di tengah wrapper */
+/* } */
+
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.menu a:hover {
+  color: #38bdf8;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.menu a.active {
+  color: #38bdf8;
+}
+
+.menu a.active::after {
+  width: 100%;
+}
+
+.right-item {
+  margin-left: auto; /* digunakan agar konten di dorong berada di sebelah kanan */
+}
+
+.right-item a{
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.right-item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.right-item a:hover {
+  color: #ffffff;
+}
+
+.right-item a:hover::after {
+  width: 100%;
+}
+
+.right-item a.active {
+  color: #ffffff;
+}
+
+.right-item a.active::after {
+  width: 100%;
+}
+
+.profile-company {
+    /* padding: 30px; */
+    background: var(--bg);
+    /* border: 1px solid #ddd; */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.profile-company:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5);
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}

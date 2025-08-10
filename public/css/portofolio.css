@@ -1,0 +1,132 @@
+:root {
+    --primary: #3498db;
+    --bg: #f1f1f1;
+}
+
+/* data warna untuk variable*/
+
+.contents {
+    display: flex;
+}
+
+.profile {
+    flex: 1 ;
+    /* border-right: 2px solid black; */
+}
+
+.profile-myprofile {
+    /* padding: 30px; */
+    background: var(--bg);
+    /* border: 1px solid #ddd; */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.profile-myprofile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5);
+}
+
+
+/* intro */
+.intro {
+    min-height: 30vh;
+    /*tinggi minimum elemen - satuan vh = % */
+    display: flex;
+    /* digunakan agar elemen menjadi flexibel dan mudah di atur*/
+    flex-direction: column;
+    /* unutk menentukan elemen yang sudah di beri display flex menjadi seperti apa - secara default horizontal(kiri ke kanan)*/
+    justify-content: center;
+    /* untuk elemen berada di tengah secara vertical*/
+    /* margin-left: 30px; */
+    /* align-items: center; untuk elemen berada di tengah secara horizontal */
+}
+
+.intro-profile {
+    display: flex;
+    gap: 20px;
+}
+
+.intro-name {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+/* .intro-profile h2 { */
+    /* font-size: 48pX; */
+    /* mengubah ukuran text */
+/* } */
+
+/* .intro-profile p { */
+    /* font-size: 20px; */
+    /*mengubah ukuran text */
+    /* margin-bottom: 20px; */
+    /* menambah jarak elemen di bawahnya */
+/* } */
+
+/* .info {
+    min-height: 30vh;
+    margin-left: 30px;
+} */
+
+/* Skills & Project Cards */
+.info {
+    display: flex;
+    /* agar content menjadi flexible dan dapat diatur*/
+    flex-direction: column;
+    justify-content: center;
+    /* untuk content berada di tengah secara vertical*/
+    align-items: center;
+    /* gap: 20px;
+    memberikan jarak antar isi elemen */
+    min-height: 30vh;
+    /* margin-left: 30px; */
+    /* flex-wrap: wrap; mengatur jika baris tidak muat akan membuat atau di pindah ke baris berikutnya */
+}
+
+
+
+
+.btn {
+    background: var(--primary);
+    /* mengubah beckground */
+    padding: 12px 25px;
+    /* mengatur jarak isi ke border di dalam elemen*/
+    color: #fff;
+    /* warna text atau isi*/
+    text-decoration: none;
+    /* memberikan hiasan pada text */
+    border-radius: 8px;
+    /* untuk menumpulkan siku pada border*/
+}
+
+.card {
+    padding: 30px;
+    background: var(--bg);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project {
+    flex: 2;
+    min-height: 30vh;
+    /*tinggi minimum elemen - satuan vh = % */
+    display: flex;
+    /* digunakan agar elemen menjadi flexibel dan mudah di atur*/
+    flex-direction: column;
+    /* unutk menentukan elemen yang sudah di beri display flex menjadi seperti apa - secara default horizontal(kiri ke kanan)*/
+    /* justify-content: center; */
+}
