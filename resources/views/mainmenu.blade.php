@@ -76,19 +76,4 @@
             </div>
         </div>
     </section>
-
-    {{-- <!-- Contact -->
-  <section id="contact" class="py-20 bg-white">
-    <div class="max-w-3xl mx-auto px-4 text-center">
-      <h3 class="text-3xl font-bold mb-4 text-gray-800">Contact Us</h3>
-      <p class="mb-2 text-gray-700">📧 contact@mycompany.com</p>
-      <p class="mb-2 text-gray-700">📞 +62 812-3456-7890</p>
-      <p class="text-gray-700">🏢 Jakarta, Indonesia</p>
-    </div>
-  </section> --}}
-
-    <!-- Footer -->
-    {{-- <footer class="bg-indigo-700 text-white text-center py-4">
-    &copy; {{ date('Y') }} MyCompany. All rights reserved.
-  </footer> --}}
 @endsection

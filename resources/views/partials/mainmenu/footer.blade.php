@@ -1,4 +1,3 @@
-<!-- filepath: c:\Users\user\Documents\Programming\anomsite\resources\views\components\layouts\main\footer.blade.php -->
 <footer class="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-8 mt-1">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 px-6">
         <!-- Contact Person -->
